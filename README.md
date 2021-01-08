@@ -25,6 +25,7 @@ This project, gathers weather forecasts from the area around Vestsiden lower sec
 The solution consists of a tiny shell script running a program written in C++
 
 **Database**:
+```
 +-----------------------------+--------------+------+-----+---------+----------------+
 | Field                       | Type         | Null | Key | Default | Extra          |
 +-----------------------------+--------------+------+-----+---------+----------------+
@@ -44,7 +45,7 @@ The solution consists of a tiny shell script running a program written in C++
 | wind_speed                  | float        | YES  |     | NULL    |                |
 | wind_speed_of_gust          | float        | YES  |     | NULL    |                |
 +-----------------------------+--------------+------+-----+---------+----------------+
-
+```
 
 ## Libraries
 * [Boost](https://www.boost.org)
