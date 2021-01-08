@@ -15,6 +15,7 @@
 #include "json.hpp"
 
 using namespace nlohmann;
+std::string api_useragent = "forecast_vestsiden github.com/oddek/forecast_vestsiden";
 
 struct Entry
 {
@@ -131,7 +132,7 @@ std::stringstream fetch_data()
 	{
 		/* curl_easy_setopt(curl, */
 		curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
-		curl_easy_setopt(curl, CURLOPT_USERAGENT, "Mozilla/5.0");
+		curl_easy_setopt(curl, CURLOPT_USERAGENT, api_useragent.c_str());
 
 		curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, buf_to_stream);
 		curl_easy_setopt(curl, CURLOPT_WRITEDATA, &out);
