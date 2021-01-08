@@ -1,5 +1,5 @@
 
-PROG = weatherCrawler 
+PROG = forecastCrawler 
 
 CC = g++
 CXXFLAGS = -Wall -Wextra -std=c++17
@@ -8,7 +8,7 @@ SRC = $(wildcard *.cpp)
 OBJ = $(SRC:.cpp=.o)
 LDFLAGS = -lcurl -lmysqlcppconn
 
-all: build run
+all: build
 
 run:
 	./$(PROG) 
