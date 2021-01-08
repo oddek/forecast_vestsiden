@@ -2,7 +2,7 @@
 
 
 
-# Forecasts Vestsiden
+# Forecast Vestsiden
 
 
 <!-- TABLE OF CONTENTS -->
@@ -97,7 +97,7 @@ Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information
 
 Kent Odde - kentodde89@gmail.com
 
-Project Link: [https://github.com/oddek/forecasts_vestsiden](https://github.com/oddek/forecasts_vestsiden)
+Project Link: [https://github.com/oddek/forecast_vestsiden](https://github.com/oddek/forecast_vestsiden)
 
 
 
