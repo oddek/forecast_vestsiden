@@ -103,7 +103,7 @@ int insert_data(std::unique_ptr<sql::Connection>& con, std::vector<Entry> entrie
 
 		std::unique_ptr<sql::Statement> stmt(con->createStatement());
 		//Perform query
-		int res = stmt->execute(query);
+		int res = stmt->executeUpdate(query);
 		total += res;
 	}
 	return total;

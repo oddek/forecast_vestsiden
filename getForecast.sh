@@ -8,5 +8,5 @@ now=$(date)
 # Run crawler
 result=$(${srcPath}/forecastCrawler)
 
-echo "${now}, ${result}, CODE: $?" >> log
+echo "${now}, ${result}, CODE: $?" >> ${CURDIR}/log
 echo "${now}, ${result}, CODE: $?"
