@@ -66,6 +66,11 @@ int main()
 		rc = -2;
 
 	}
+	catch(json::parse_error)
+	{
+		std::cout << "Json parse error";
+		rc = -4;
+	}
 	catch(...)
 	{
 		std::cout << "Unknown error";
